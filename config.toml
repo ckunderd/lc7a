@@ -319,8 +319,8 @@ She worked at Pied Piper for years until they went belly up."""
     #error = "Message could not be send. Please contact us at webmaster@lifechurchsouthfield.org instead."
 
     [params.contact.captcha]
-      #sitekey = "6Le-qHMUAAAAAKSvJwerGdrSmRoDuBGXIY7bchAE"
-      sitekey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+      sitekey = "6Le-qHMUAAAAAKSvJwerGdrSmRoDuBGXIY7bchAE"
+      #sitekey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
