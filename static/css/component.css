@@ -95,12 +95,12 @@
 
 .og-details {
 	padding: 0 40px 0 20px;
-    width: 33% !important;
+    width: 33%;
 }
 
 .og-fullimg {
 	text-align: center;
-    width: 67% !important;
+    width: 67%;
 }
 
 .og-fullimg img {
@@ -111,8 +111,8 @@
 
 .og-details h3 {
 	font-weight: 300;
-	font-size: 52px;
-	padding: 40px 0 10px;
+	font-size: 40px;
+	padding: -5px 0 10px;
 	margin-bottom: 10px;
 }
 
@@ -182,7 +182,7 @@
 
 @media screen and (max-width: 830px) {
 
-	.og-expander h3 { font-size: 32px; }
+	.og-expander h3 { font-size: 24px; }
 	.og-expander p { font-size: 13px; }
 	.og-expander a { font-size: 12px; }
 
