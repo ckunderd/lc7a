@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://lc7.org"
+baseurl = "https://lc7.org/"
 languageCode = "en-us"
 title = "Life @ 7 | LifeChurch Southfield"
 theme = "hugo-agency-theme"
