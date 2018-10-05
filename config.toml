@@ -336,8 +336,8 @@ She worked at Pied Piper for years until they went belly up."""
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message"
-      warning = "Please tell us a favorite memory of LifeChurch Southfield!"
+      text = "Please tell us a favorite memory of LifeChurch Southfield!"
+      warning = ""
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
