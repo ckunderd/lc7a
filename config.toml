@@ -128,7 +128,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       img = "img/celebrations/salvation.jpg"
       title = "Commitments"
-      description = "Over 250 people have committed their lives to Jesus for the first time or reocmmitted their lives to him at LifeChurch Southfield since we opened our doors."
+      description = "Over 250git  people have committed their lives to Jesus for the first time or reocmmitted their lives to him at LifeChurch Southfield since we opened our doors."
       stat = "250+"
 
     [[params.services.row.list]]
