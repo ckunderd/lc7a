@@ -1,0 +1,374 @@
+# Site settings
+baseurl = "https://lifechurchsouthfield.org/7"
+languageCode = "en-us"
+title = "Life @ 7 | LifeChurch Southfield"
+theme = "hugo-agency-theme"
+publishDir = "docs"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "LifeChurch Southfield"
+  description = "Know Jesus. Grow in Community. Go Serve."
+  # email = "info@lifechurchsouthfield.org"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "The Agency"
+    # Optional logo as brand stored in img/
+    logo = "LifeChurch-Southfield-logo-white.png"
+    about = "Our Story"
+    mission = "Mission"
+    services = "Celebrations"
+    gallery = "Gallery"
+    portfolio = "Portfolio"
+    team = "Team"
+    contact = "Next 7"
+    home = "https://lifechurchsouthfield.org"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+   # [[menu.postpend]]
+     # url = "http://gohugo.io"
+     # name = "External link"
+     # weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = ""
+    subtitle = ""
+    buttonText = "See our journey!"
+    
+ # Mission section
+  [params.mission]
+    enable = true
+    title = "Mission"
+    subtitle = "God has called LifeChurch Southfield to help <strong>real people</strong> connect to a <strong>real God</strong> and experience <strong>real life.</strong>"
+
+    [[params.mission.row]]
+
+    [[params.mission.row.list]]
+      icon = "fa-lightbulb"
+      title = "Know Jesus."
+      description = "God created us to know Him through a growing relationship with Jesus Christ. Whether you are exploring who Jesus is, or someone who has been following Him for years, we gather every Sunday morning to get to know Him better and to worship Him."
+      url = ""
+
+    [[params.mission.row.list]]
+      icon = "fa-leaf"
+      title = "Grow Together."
+      description = "God created us for meaningful relationships with others. At LifeChurch, we cultivate meaningful relationships in a variety of ways, but the main way is through LifeGroups. These groups meet during the week to grow deeper in their relationship with Christ."
+      url = ""
+
+    [[params.mission.row.list]]
+      icon = "fa-arrow-right"
+      title = "Go Serve."
+      description = "God created us for unique purposes that we actualize by serving in the ways He designed us. At LifeChurch, we go serve others to make a lasting impact on our families, our community, and the world!"
+      url = ""
+
+
+  # Celebrations section
+  [params.services]
+    enable = true
+    title = "Celebrations"
+    subtitle = "God has moved powerfully in our 7 years, and we look forward to more!"
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      img = "img/celebrations/baptism.jpg"
+      title = "Baptisms"
+      description = "Since 2011, over 50 people have been baptized to publicly declare their love for Christ as a result of their connection to Jesus at LifeChurch Southfield."
+      stat = "50+"
+
+    [[params.services.row.list]]
+      img = "img/celebrations/salvation.jpg"
+      title = "Commitments"
+      description = "Over 200 people have committed their lives to Jesus for the first time or reocmmitted their lives to him at LifeChurch Southfield since we opened our doors."
+      stat = "200+"
+
+    [[params.services.row.list]]
+      img = "img/celebrations/church-planting.jpg"
+      title = "Church Planting"
+      description = "LifeChurch Southfield has helped over 10 churches all over the Midwest come into existence as a result of sacrificial prayer, giving, and leadership."
+      stat = "10+"
+      
+ # Gallery section
+ [params.gallery]
+ enable = true
+ title = "Gallery"
+ subtitle = "7 years together have produced many wonderful memories that point to what God has done in our lives."
+
+  # Portfolio section
+  [params.portfolio]
+    enable = false
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Our Story"
+    subtitle = "For the last seven years, God has faithfully grown LifeChurch Southfield <br>from a group of people in a backyard to collective of Christians who are growing God's kingdom."
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "2010-2011"
+      title = "Our Roots"
+      description = "In 2010, Alan and Marcia Tumpkin began hosting a bible study at Ashland Theological Seminary every week. For a year, this group met, ate, studied, worshipped, and prayed together. In October 2011, this group came together to begin the process of planting what would become LifeChurch Southfield."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "2011-2012"
+      title = "Experiencing New Life"
+      description = "LifeChurch Southfield began its journey as a church plant under the care of LifeChurch Canton. Being part of a family of churches initially helped LifeChurch Southfield to have the resources to grow and thrive while also giving vision to planting future churches."
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "2012-2013"
+      title = "In The Hotel As It Is In Heaven"
+      description = "LifeChurch Southfield found its first true public location in the Marriott Hotel in Southfield, MI. Teams of dedicated volunteers moved an entire church into a hotel every week, transforming an ordinary place into one where people could know Jesus!"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "2013-2016"
+      title = "A Great Banquet (Hall)"
+      description = "For 3 years, LifeChurch Southfield met in Pi Banquet Hall, growing to two services while increasing in number, excellence, and influence in the Southfield community. The service even grew out of the main room, featuring multiple classes for kids and young adults."
+      
+    [[params.about.events]]
+      img = "5.jpg"
+      date = "2016-2018"
+      title = "Prepping for Growth"
+      description = "After reaching the limits of Pi Banquet Hall, LifeChurch Southfield found its current home at University Prep High School in Southfield. The larger facility has allowed LifeChurch Southfield to continue to expand all their ministries and its community outreach."
+      
+    [[params.about.events]]
+      img = "6.jpg"
+      date = "2018-BEYOND"
+      title = "Heading for the Hills"
+      description = "Only seven years after their first preview service, LifeChurch Southfield is prepared to launch its first church plant in LifeChurch Auburn Hills. In addition, lead pastor Alan Tumpkin has been instrumental in planting almost a dozen other churches across the Great Lakes region."
+
+
+  # Team section
+  [params.team]
+    enable = false
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Be a part of the next 7 years."
+    subtitle  = "Fill out the form to show us you want more information about how you can join LifeChurch Southfield as we continue our incredible journey of following Jesus."
+    buttonText = "Tell me more!"
+    # netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+ postURL = "https://formcarry.com/s/3WZVPC_Drj4"
+
+    email = "webmaster@lifechurchsouthfield.org"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at webmaster@lifechurchsouthfield.org instead."
+
+    [params.contact.captcha]
+      #sitekey = "6Le-qHMUAAAAAKSvJwerGdrSmRoDuBGXIY7bchAE"
+      sitekey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message"
+      warning = "Please tell us a favorite memory of LifeChurch Southfield!"
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "&copy; 2018 LifeChurch Southfield. All rights reserved."
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+      title = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Back to LifeChurch Southfield"
+      link = "https://lifechurchsouthfield.org"
+
