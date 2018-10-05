@@ -128,14 +128,14 @@ googleAnalytics = ""
     [[params.services.row.list]]
       img = "img/celebrations/salvation.jpg"
       title = "Commitments"
-      description = "Over 250git  people have committed their lives to Jesus for the first time or reocmmitted their lives to him at LifeChurch Southfield since we opened our doors."
+      description = "Over 250 people have committed their lives to Jesus for the first time or reocmmitted their lives to him at LifeChurch Southfield since we opened our doors."
       stat = "250+"
 
     [[params.services.row.list]]
       img = "img/celebrations/church-planting.jpg"
       title = "Church Planting"
       description = "LifeChurch Southfield has helped 6 churches all over the Midwest come into existence as a result of sacrificial prayer, giving, and leadership."
-      stat = "16+"
+      stat = "6+"
       
  # Gallery section
  [params.gallery]
@@ -172,25 +172,25 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2010-2011"
+      date = "2010"
       title = "Our Roots"
       description = "In 2010, Alan and Marcia Tumpkin began hosting a bible study at Ashland Theological Seminary every week. For a year, this group met, ate, studied, worshipped, and prayed together. In October 2011, this group came together to begin the process of planting what would become LifeChurch Southfield."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "2011-2012"
+      date = "2011"
       title = "Experiencing New Life"
       description = "LifeChurch Southfield began its journey as a church plant under the care of LifeChurch Canton. Being part of a family of churches initially helped LifeChurch Southfield to have the resources to grow and thrive while also giving vision to planting future churches."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "2012-2013"
+      date = "2011-2014"
       title = "In The Hotel As It Is In Heaven"
       description = "LifeChurch Southfield found its first true public location in the Marriott Hotel in Southfield, MI. Teams of dedicated volunteers moved an entire church into a hotel every week, transforming an ordinary place into one where people could know Jesus!"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "2013-2016"
+      date = "2014-2016"
       title = "A Great Banquet (Hall)"
       description = "For 3 years, LifeChurch Southfield met in Pi Banquet Hall, growing to two services while increasing in number, excellence, and influence in the Southfield community. The service even grew out of the main room, featuring multiple classes for kids and young adults."
       
